@@ -22,11 +22,8 @@ clicar no botao clique longo
 
 valido mensagem de sucesso
     [Arguments]    ${TEXT}
-    Long Press    ${btn_clique_longo2}    duration=10
-
-    Text Should Be Visible    ${TEXT}
-    Wait Until Page Contains    Botão clique longo    ${GLOBAL_TIMEOUT}
-    Wait Until Page Contains    CLIQUE LONGO          ${GLOBAL_TIMEOUT}
+    Click Element    ${btn_clique_simples2}
+    Wait Until Page Contains      ${TEXT}
 
 valido mensagem de sucesso clique longo
     [Arguments]    ${TEXT}
