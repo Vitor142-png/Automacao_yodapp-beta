@@ -8,7 +8,7 @@ Resource        ../keywords/cadastro.robot
 
 Test Setup      Abrir App Local Android
 Test Teardown   Fechar App
-
+Force Tags       todos
 
 *** Test Cases ***
 CT01- Cenario: Validar fluxo de cadastro de conta com sucesso

@@ -4,7 +4,7 @@ language: pt-BR
 Resource     ..//keywords/clique_botoes.robot
 Test Setup      Abrir App Local Android
 Test Teardown   Fechar App
-
+Force Tags       todos
 
 *** Test Cases ***
 CT01- Cenario: Validar clique simples

@@ -7,6 +7,8 @@ Resource        ../../clique_spec/keywords/clique_botoes.robot
 
 Test Setup      Abrir App Local Android
 Test Teardown   Fechar App
+Force Tags       todos
+
 
 
 *** Test Cases ***
